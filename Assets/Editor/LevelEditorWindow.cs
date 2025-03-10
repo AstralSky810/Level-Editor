@@ -16,11 +16,6 @@ public class LevelEditorWindow : EditorWindow
     private LevelData currentLevel;
     private List<LevelData> allLevels = new List<LevelData>();
 
-    // 编辑器状态
-    private Color selectedColor = Color.white;
-    private BlockType selectedType;
-    private bool isDragging;
-
     private const int UNDO_STACK_SIZE = 50;
     private Stack<LevelSnapshot> undoStack = new Stack<LevelSnapshot>();
     private Stack<LevelSnapshot> redoStack = new Stack<LevelSnapshot>();
@@ -49,7 +44,6 @@ public class LevelEditorWindow : EditorWindow
 
     void OnGUI()
     {
-        //HandleInput();
         GUILayout.BeginHorizontal();
         DrawLevelList();
         DrawMainEditor();
@@ -210,20 +204,20 @@ public class LevelEditorWindow : EditorWindow
     {
         GUILayout.BeginHorizontal(EditorStyles.toolbar);
 
-        // 撤销按钮
-        GUI.enabled = undoStack.Count > 0;
-        if (GUILayout.Button("← Undo", EditorStyles.toolbarButton, GUILayout.Width(80)))
-        {
-            PerformUndo();
-        }
+        //// 撤销按钮
+        //GUI.enabled = undoStack.Count > 0;
+        //if (GUILayout.Button("← Undo", EditorStyles.toolbarButton, GUILayout.Width(80)))
+        //{
+        //    PerformUndo();
+        //}
 
-        // 重做按钮
-        GUI.enabled = redoStack.Count > 0;
-        if (GUILayout.Button("Redo →", EditorStyles.toolbarButton, GUILayout.Width(80)))
-        {
-            PerformRedo();
-        }
-        GUI.enabled = true;
+        //// 重做按钮
+        //GUI.enabled = redoStack.Count > 0;
+        //if (GUILayout.Button("Redo →", EditorStyles.toolbarButton, GUILayout.Width(80)))
+        //{
+        //    PerformRedo();
+        //}
+        //GUI.enabled = true;
 
         // 关卡名称编辑
         string newName = EditorGUILayout.DelayedTextField(
@@ -373,6 +367,8 @@ public class LevelEditorWindow : EditorWindow
 
     #endregion
 
+    #region 预设面板
+
     // 预设数据
     [System.Serializable]
     private class PresetBlock
@@ -385,11 +381,6 @@ public class LevelEditorWindow : EditorWindow
     private List<PresetBlock> presetBlocks = new List<PresetBlock>();
     private PresetBlock draggingPreset;
     private Vector2 dragOffset;
-
-    // 编辑器状态
-    private Vector2Int? lastGridPos;
-
-    #region 预设面板
     private void InitializePresets()
     {
         presetBlocks = new List<PresetBlock>

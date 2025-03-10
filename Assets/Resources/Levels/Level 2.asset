@@ -15,94 +15,133 @@ MonoBehaviour:
   levelName: 
   gridSize: {x: 20, y: 20}
   blocks:
-  - position: {x: 0, y: 19}
+  - position: {x: 0, y: 0}
     color: {r: 1, g: 0, b: 0, a: 1}
     type: 1
-  - position: {x: 0, y: 18}
+  - position: {x: 19, y: 0}
     color: {r: 1, g: 0, b: 0, a: 1}
     type: 1
-  - position: {x: 0, y: 17}
+  - position: {x: 19, y: 19}
     color: {r: 1, g: 0, b: 0, a: 1}
     type: 1
-  - position: {x: 0, y: 16}
-    color: {r: 1, g: 0, b: 0, a: 1}
-    type: 1
-  - position: {x: 0, y: 15}
-    color: {r: 1, g: 0, b: 0, a: 1}
-    type: 1
-  - position: {x: 6, y: 19}
-    color: {r: 1, g: 0, b: 0, a: 1}
-    type: 1
-  - position: {x: 6, y: 18}
-    color: {r: 1, g: 0, b: 0, a: 1}
-    type: 1
-  - position: {x: 6, y: 17}
-    color: {r: 1, g: 0, b: 0, a: 1}
-    type: 1
-  - position: {x: 6, y: 16}
-    color: {r: 1, g: 0, b: 0, a: 1}
-    type: 1
+  - position: {x: 10, y: 11}
+    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    type: 0
+  - position: {x: 10, y: 4}
+    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    type: 0
+  - position: {x: 16, y: 7}
+    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    type: 0
+  - position: {x: 13, y: 5}
+    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    type: 0
+  - position: {x: 8, y: 7}
+    color: {r: 0, g: 0, b: 1, a: 1}
+    type: 0
+  - position: {x: 6, y: 3}
+    color: {r: 0, g: 0, b: 1, a: 1}
+    type: 0
+  - position: {x: 3, y: 7}
+    color: {r: 0, g: 0, b: 1, a: 1}
+    type: 0
+  - position: {x: 6, y: 9}
+    color: {r: 0, g: 0, b: 1, a: 1}
+    type: 0
+  - position: {x: 3, y: 11}
+    color: {r: 0, g: 1, b: 0, a: 1}
+    type: 0
+  - position: {x: 3, y: 15}
+    color: {r: 0, g: 1, b: 0, a: 1}
+    type: 0
+  - position: {x: 8, y: 14}
+    color: {r: 0, g: 1, b: 0, a: 1}
+    type: 0
   - position: {x: 6, y: 15}
+    color: {r: 0, g: 1, b: 0, a: 1}
+    type: 0
+  - position: {x: 14, y: 13}
     color: {r: 1, g: 0, b: 0, a: 1}
     type: 1
-  - position: {x: 1, y: 14}
+  - position: {x: 12, y: 11}
+    color: {r: 0, g: 1, b: 0, a: 1}
+    type: 0
+  - position: {x: 10, y: 7}
+    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    type: 0
+  - position: {x: 16, y: 10}
+    color: {r: 0, g: 0, b: 1, a: 1}
+    type: 0
+  - position: {x: 9, y: 16}
+    color: {r: 0, g: 0, b: 1, a: 1}
+    type: 0
+  - position: {x: 11, y: 16}
+    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    type: 0
+  - position: {x: 11, y: 12}
+    color: {r: 0, g: 1, b: 0, a: 1}
+    type: 0
+  - position: {x: 5, y: 6}
+    color: {r: 0, g: 1, b: 0, a: 1}
+    type: 0
+  - position: {x: 7, y: 3}
     color: {r: 1, g: 0, b: 0, a: 1}
     type: 1
-  - position: {x: 5, y: 14}
+  - position: {x: 11, y: 2}
+    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    type: 0
+  - position: {x: 12, y: 3}
+    color: {r: 0, g: 0, b: 1, a: 1}
+    type: 0
+  - position: {x: 1, y: 5}
+    color: {r: 1, g: 0, b: 0, a: 1}
+    type: 1
+  - position: {x: 5, y: 17}
+    color: {r: 1, g: 0, b: 0, a: 1}
+    type: 1
+  - position: {x: 17, y: 16}
+    color: {r: 1, g: 0, b: 0, a: 1}
+    type: 1
+  - position: {x: 7, y: 11}
+    color: {r: 1, g: 0, b: 0, a: 1}
+    type: 1
+  - position: {x: 3, y: 8}
+    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    type: 0
+  - position: {x: 15, y: 9}
+    color: {r: 0, g: 0, b: 1, a: 1}
+    type: 0
+  - position: {x: 8, y: 1}
+    color: {r: 0, g: 1, b: 0, a: 1}
+    type: 0
+  - position: {x: 16, y: 3}
     color: {r: 1, g: 0, b: 0, a: 1}
     type: 1
   - position: {x: 1, y: 13}
+    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    type: 0
+  - position: {x: 15, y: 1}
+    color: {r: 0, g: 0, b: 1, a: 1}
+    type: 0
+  - position: {x: 18, y: 3}
+    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    type: 0
+  - position: {x: 12, y: 0}
     color: {r: 1, g: 0, b: 0, a: 1}
     type: 1
-  - position: {x: 5, y: 13}
+  - position: {x: 17, y: 1}
     color: {r: 1, g: 0, b: 0, a: 1}
     type: 1
-  - position: {x: 1, y: 12}
-    color: {r: 1, g: 0, b: 0, a: 1}
-    type: 1
-  - position: {x: 5, y: 12}
-    color: {r: 1, g: 0, b: 0, a: 1}
-    type: 1
-  - position: {x: 1, y: 11}
-    color: {r: 1, g: 0, b: 0, a: 1}
-    type: 1
-  - position: {x: 2, y: 10}
-    color: {r: 1, g: 0, b: 0, a: 1}
-    type: 1
-  - position: {x: 3, y: 10}
-    color: {r: 1, g: 0, b: 0, a: 1}
-    type: 1
-  - position: {x: 4, y: 10}
-    color: {r: 1, g: 0, b: 0, a: 1}
-    type: 1
-  - position: {x: 3, y: 12}
-    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  - position: {x: 16, y: 5}
+    color: {r: 0, g: 0, b: 1, a: 1}
     type: 0
-  - position: {x: 4, y: 12}
-    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  - position: {x: 14, y: 4}
+    color: {r: 0, g: 0, b: 1, a: 1}
     type: 0
-  - position: {x: 2, y: 12}
-    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  - position: {x: 18, y: 6}
+    color: {r: 0, g: 1, b: 0, a: 1}
     type: 0
-  - position: {x: 3, y: 13}
-    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-    type: 0
-  - position: {x: 4, y: 13}
-    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-    type: 0
-  - position: {x: 2, y: 13}
-    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-    type: 0
-  - position: {x: 4, y: 11}
-    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-    type: 0
-  - position: {x: 3, y: 11}
-    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-    type: 0
-  - position: {x: 2, y: 11}
-    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-    type: 0
-  - position: {x: 5, y: 11}
+  - position: {x: 0, y: 19}
     color: {r: 1, g: 0, b: 0, a: 1}
     type: 1
   sortOrder: 0
